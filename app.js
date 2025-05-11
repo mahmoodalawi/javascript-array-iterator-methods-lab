@@ -95,3 +95,15 @@ let veryOldInventors = inventors.filter(inventor => inventor.year >= 1500 && inv
 
 console.log('Exercise 1 my result: ',veryOldInventors);
 
+
+
+// Exercise 2: Array.prototype.map()
+
+let inventorNames = [];
+
+inventorNames = inventors.map(inventor=>{
+    return {first: inventor.first, last: inventor.last}
+})
+
+console.log('Exercise 2 my result: ', inventorNames);
+
