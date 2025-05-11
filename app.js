@@ -119,5 +119,12 @@ console.log('Exercise 3 my result: ', sortedByBirthYear);
 
 // Exercise 4: Array.prototype.find()
 
+let inventorNamedAda = {};
+
+inventorNamedAda = inventors.find(inventor =>{
+    return inventor.first === "Ada"
+})
+
+console.log('Exercise 4: ', inventorNamedAda);
 
 
