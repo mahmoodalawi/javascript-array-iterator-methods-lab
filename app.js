@@ -107,3 +107,17 @@ inventorNames = inventors.map(inventor=>{
 
 console.log('Exercise 2 my result: ', inventorNames);
 
+// Exercise 3: Array.prototype.sort()
+
+
+let sortedByBirthYear = [];
+
+sortedByBirthYear = inventors.sort((older,young)=> older.year - young.year)
+
+console.log('Exercise 3 my result: ', sortedByBirthYear);
+
+
+// Exercise 4: Array.prototype.find()
+
+
+
