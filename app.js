@@ -140,5 +140,16 @@ firstLast = people.map(person => {
 console.log('Exercise 5:', firstLast);
 
 
+// Exercise 6: Array.prototype.some()
+
+let isAdultPresent = null;
+
+isAdultPresent = devs.some(dev => {
+    let date = new Date();
+    return date.getFullYear() - dev.year >= 18;
+  });
+
+console.log('Exercise 6: ', isAdultPresent);
+
 
 
