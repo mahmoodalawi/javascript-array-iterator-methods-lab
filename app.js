@@ -152,4 +152,26 @@ isAdultPresent = devs.some(dev => {
 console.log('Exercise 6: ', isAdultPresent);
 
 
+// Exercise 7: Array.prototype.every()
+
+let isEveryone19OrOlder = null;
+isEveryone19OrOlder = devs.every(dev =>{
+    let date = new Date()
+    return  date.getFullYear() - dev.year >= 19
+  })
+
+  console.log("Exercise 7", isEveryone19OrOlder);
+
+//Exercise 8: Array.prototype.find()
+
+let commentById = {};
+
+// Complete the exercise in the space below:
+commentById = comments.find(comment =>{
+  return comment.id == 823423;
+})
+
+console.log("Exercise 8:",commentById);
+
+
 
