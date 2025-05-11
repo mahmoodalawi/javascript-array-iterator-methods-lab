@@ -128,3 +128,17 @@ inventorNamedAda = inventors.find(inventor =>{
 console.log('Exercise 4: ', inventorNamedAda);
 
 
+// Exercise 5: Array.prototype.map()
+
+let firstLast = [];
+
+firstLast = people.map(person => {
+    const nameNew = person.split(', ').reverse();
+    return nameNew.join(" ");
+  });
+
+console.log('Exercise 5:', firstLast);
+
+
+
+
