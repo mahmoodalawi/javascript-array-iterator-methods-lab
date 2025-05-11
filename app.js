@@ -94,3 +94,4 @@ const inventors = [
 let veryOldInventors = inventors.filter(inventor => inventor.year >= 1500 && inventor.year <= 1599);
 
 console.log('Exercise 1 my result: ',veryOldInventors);
+
