@@ -173,8 +173,15 @@ commentById = comments.find(comment =>{
 
 console.log("Exercise 8:",commentById);
 
-// I need to ask the Instructor Associates
+// Exercise 9 
 
 let idx = null;
+
+idx = comments.findIndex(comment =>{
+  return comment.id === 123523
+})
+
+console.log("Exercise 9:", idx);
+
 
 
